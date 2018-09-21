@@ -1,7 +1,7 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class insertionSort {
+public class bubbleSort {
 	public static void main(String[] args) throws Exception{
 		InputStreamReader isr = new InputStreamReader(System.in);
 		BufferedReader bsr = new BufferedReader(isr);
