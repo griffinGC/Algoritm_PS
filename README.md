@@ -4,8 +4,15 @@
 
 #### 백준
 - [그리디](./Baekjoon/그리디)
-- 스택
-- 시뮬레이션
-- 정렬
-- 출력
-- 트리
+- [스택](./Baekjoon/스택)
+- [시뮬레이션](./Baekjoon/시뮬레이션)
+- [정렬](./Baekjoon/정렬)
+- [출력](./Baekjoon/출력)
+- [트리](./Baekjoon/트리)
+- [DFS_BFS](./Baekjoon/DFS_BFS)
+- [ETC](./Baekjoon/ETC)
+ 
+#### 기본 구현
+- [BFS_DFS](./BFS_DFS)
+- [Sorting](./Sorting)
+- [ETC](./ETC)
