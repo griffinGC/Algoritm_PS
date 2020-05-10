@@ -12,6 +12,7 @@
 - [트리](./Baekjoon/트리)
 - [DFS_BFS](./Baekjoon/DFS_BFS)
 - [ETC](./Baekjoon/ETC)
+- [Two_Point](./Baekjoon/Two_Point)
 
 
 
