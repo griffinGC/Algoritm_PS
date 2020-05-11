@@ -1,6 +1,7 @@
 # Java_Algoritm
 
 ### 백준 알고리즘 공부를 위한 마구잡이 풀이 입니다.
+> 주 언어는 자바 이지만 Python으로도 구현된 곳도 있습니다.
 
 #### :blue_book: 백준
 
@@ -19,6 +20,7 @@
 #### :notebook_with_decorative_cover: 프로그래머스
 
 - [Greedy](./Programmers/Greedy)
+- [Hash](./Programmers/Hash)
 
 
 
