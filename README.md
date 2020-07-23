@@ -7,6 +7,7 @@
 
 - [그리디](./Baekjoon/그리디)
 - [스택](./Baekjoon/스택)
+- [리스트](./Baekjoon/리스트)
 - [시뮬레이션](./Baekjoon/시뮬레이션)
 - [정렬](./Baekjoon/정렬)
 - [출력](./Baekjoon/출력)
