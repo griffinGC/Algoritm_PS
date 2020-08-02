@@ -24,6 +24,7 @@
 - [Greedy](./Programmers/Greedy)
 - [Hash](./Programmers/Hash)
 - [Search](./Programmers/Search)
+- [Heap](./Programmers/Heap)
 
 
 
