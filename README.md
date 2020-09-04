@@ -16,6 +16,7 @@
 - [ETC](./Baekjoon/ETC)
 - [Two_Point](./Baekjoon/Two_Point)
 - [백트랙킹](./Baekjoon/백트랙킹)
+- [큐](./Baekjoon/큐)
 
 
 
