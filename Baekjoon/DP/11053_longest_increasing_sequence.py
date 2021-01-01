@@ -1,24 +1,3 @@
-import sys
-import bisect
-# 2진탐색 사용
-def solution(num_input, input_list):
-
-    num = num_input
-    result = list()
-    num_list = input_list
-    for i in num_list:
-        if len(result) == 0:
-            result.append(i)
-            continue
-            # 위치를 찾아서 삭제하고 다시 넣어주기
-        if result[-1] < i:
-            result.append(i)
-        else:
-            index = bisect.bisect_left(result, i)
-            result[index] = i
-    # print(result)
-    return len(result)
-
 def solution2(num_input, input_list):
     num = num_input
     num_list = [0]
@@ -47,3 +26,19 @@ result = solution(num, num_list)
 result2 = solution2(num, num_list)
 print(result)
 print(result2)
+
+---
+
+# 가장 긴 증가하는 부분수열의 길이를 dp로 해결
+n = int(input())
+num = list(map(int, input().split()))
+dp = [1 for _ in range(n)]
+def solution2():
+    # 이중 for문을 이용해서 dp로 해결
+    for i in range(1, n):
+        for j in range(0, i):
+            if num[i] > num[j]:
+                dp[i] = max(dp[i], dp[j] + 1)
+
+    print(max(dp))
+solution2()
