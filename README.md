@@ -12,14 +12,18 @@
 - [정렬](./Baekjoon/정렬)
 - [출력](./Baekjoon/출력)
 - [트리](./Baekjoon/트리)
-- [DFS_BFS](./Baekjoon/DFS_BFS)
+- [그래프](./Baekjoon/그래프)
 - [ETC](./Baekjoon/ETC)
 - [Two_Point](./Baekjoon/Two_Point)
 - [백트랙킹](./Baekjoon/백트랙킹)
 - [큐](./Baekjoon/큐)
 - [구현](./Baekjoon/구현)
 - [DP](./Baekjoon/DP)
-
+- [기본문제](./Baekjoon/기본)
+- [문자열](./Baekjoon/문자열)
+- [순열&조합](./Baekjoon/순열_조합)
+- [이진탐색](./Baekjoon/이진탐색)
+- [재귀](./Baekjoon/재귀)
 
 #### :notebook_with_decorative_cover: 프로그래머스
 
