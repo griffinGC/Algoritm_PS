@@ -24,6 +24,7 @@
 - [순열&조합](./Baekjoon/순열_조합)
 - [이진탐색](./Baekjoon/이진탐색)
 - [재귀](./Baekjoon/재귀)
+- [분할정복](./Baekjoon/분할정복)
 
 #### :notebook_with_decorative_cover: 프로그래머스
 
