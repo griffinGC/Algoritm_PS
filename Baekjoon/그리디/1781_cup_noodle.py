@@ -9,10 +9,10 @@ for _ in range(n):
     d, noodle = map(int, input().split())
     cup.append((d, noodle))
 cup.sort()
-for i in cup:
-    d = i[0]
-    heapq.heappush(data, i[1])
-    if len(data) > d:
+# 데드라인 작은것 부터 차례대로 순회
+for deadline, cups in cup:
+    heapq.heappush(data, cups)
+    # if 대신 while도 가능
+    if len(data) > deadline:
         heapq.heappop(data)
-
 print(sum(data))
