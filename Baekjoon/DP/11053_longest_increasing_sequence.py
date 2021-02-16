@@ -1,4 +1,5 @@
-def solution2(num_input, input_list):
+import sys
+def solution(num_input, input_list):
     num = num_input
     num_list = [0]
     num_list += input_list
@@ -23,11 +24,9 @@ num = input()
 num_list = [i for i in list(map(int, input().split()))]
 
 result = solution(num, num_list)
-result2 = solution2(num, num_list)
 print(result)
-print(result2)
 
----
+# ---
 
 # 가장 긴 증가하는 부분수열의 길이를 dp로 해결
 n = int(input())
