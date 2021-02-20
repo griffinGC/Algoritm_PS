@@ -1,5 +1,3 @@
-package Baekjoon;
-
 import java.util.Scanner;
 
 public class problem15650_NandM2 {
