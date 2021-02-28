@@ -7,9 +7,9 @@ def solution():
     idx = -1 # 단축키가 설정될 인덱스
     ans = [''] * n # 정답
     for k in range(n):
-        word = input().rstrip() # 인덱싱을 위한 word
-        wordArr = word.split() # 각 단어의 첫번째 음절을 확인하기 위한 word배열
-        check = [0, 0] # [단어의 첫번째 음절에서 발견, 단어의 두번째 음절 이상에서 발견]
+        word = input().strip() # 인덱싱을 위한 word
+        wordArr = word.split() # 각 단어의 첫번째 알파벳 확인하기 위한 word배열
+        check = [0, 0] # [단어의 첫번째 알파벳에서 발견, 단어의 두번째 알파벳 이상에서 발견]
         l = 0 # wordArr에서 단어의 길이를 누적으로 더하는 변수
         # 단어의 첫번째 음절에서 발견될 때
         for j in range(len(wordArr)):
@@ -34,7 +34,7 @@ def solution():
                         idx = l + j
                         check[1] = 1
                         break
-                l = len(wordArr[i]) + 1
+                l += len(wordArr[i]) + 1
         # 첫번째나 두번째 이상의 음절에서 단축키를 설정할 수 있는 경우
         if check[0] or check[1]:
             ans[k] = word[:idx] + '[' + word[idx] + ']' + word[idx + 1:]
